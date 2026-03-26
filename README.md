@@ -24,21 +24,34 @@ Estos ejercicios permiten reforzar conceptos fundamentales como:
 
 ---
 
-## ▶️ Instrucciones para ejecutar el programa
-
-
----
-
-### ✅ Requisitos
-
-
----
-
 ## 👥 Integrantes del Equipo
 - 👤 Felipe Londoño Ospina 
 - 👤 Jordan Restrepo Tobón 
 
 ---
 
+## ✅ Conclusion
+En este taller se aplicaron conceptos fundamentales de programación en Java, especialmente el uso de ciclos (for, while) para resolver distintos problemas. A través de los programas desarrollados se practicó la interacción con el usuario mediante la consola, el uso de variables de control, contadores y validación de datos.
+
+Los ejercicios realizados, como el menú de operaciones con ciclos, el juego de adivinar el número y la tabla de multiplicar, permitieron comprender cómo los ciclos pueden utilizarse para repetir procesos, procesar datos ingresados por el usuario y controlar el flujo de un programa.
+
+Además, el desarrollo del proyecto permitió reforzar habilidades importantes como la organización del código, la resolución de problemas mediante lógica de programación y el uso de GitHub para gestionar y documentar el trabajo.
+
+---
+
 ## Enlaces a recursos utilizados
-- 
+
+- Documentación oficial de Java – Oracle
+- https://docs.oracle.com/javase/tutorial/
+- W3Schools – Java Loops (ciclos en Java)
+- https://www.w3schools.com/java/java_while_loop.asp
+- W3Schools – Java For Loop
+- https://www.w3schools.com/java/java_for_loop.asp
+- W3Schools – Java Break y Continue
+- https://www.w3schools.com/java/java_break.asp
+- GeeksforGeeks – Loops in Java
+- https://www.geeksforgeeks.org/loops-in-java/
+- GeeksforGeeks – Overflow en Java
+- https://www.geeksforgeeks.org/overflow-and-underflow-in-java/
+-StackOverflow – ANSI colors en consola Java
+- https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println 
