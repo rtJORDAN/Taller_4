@@ -363,6 +363,159 @@ public class TablaMultiplicar {
 
 ## Respuestas de preguntas de teoria
 
+1. ¿Cuál es la diferencia entre un ciclo for, un ciclo while y un do-while?​
+
+R/: Ciclo for: Se usa cuando sabemos cuántas veces se repetirá el ciclo. Tiene tres partes: inicialización, condición y actualización. Ejemplo:​
+
+for (int i = 1; i <= 10; i++) {​
+    System.out.println(i);​
+}​
+
+Ciclo while: Se usa cuando no sabemos exactamente cuántas veces se repetirá, solo sabemos la condición. Ejemplo:​
+
+int i = 1;​
+while (i <= 10) {​
+    System.out.println(i);​
+    i++;​
+}​
+
+Ciclo do-while: Es parecido al while, pero siempre se ejecuta al menos una vez, porque la condición se revisa al final. Ejemplo:​
+
+int i = 1;​
+do {​
+    System.out.println(i);​
+    i++;​
+} while (i <= 10);​
+
+2. ¿Qué es un ciclo infinito y cómo se puede evitar?​
+
+R/: Un ciclo infinito es un ciclo que nunca termina porque la condición siempre es verdadera. Ejemplo:​
+
+while (true) {​
+    System.out.println("Este ciclo nunca termina");​
+}​
+
+Se puede evitar: ​
+Usando condiciones correctas.​
+Actualizando correctamente la variable del ciclo.​
+Usando break para salir del ciclo.
+
+3. ¿Cómo se pueden anidar ciclos en Java?​
+
+R/: Anidar ciclos significa poner un ciclo dentro de otro ciclo. Ejemplo:​
+
+for (int i = 1; i <= 3; i++) {​
+    for (int j = 1; j <= 3; j++) {​
+        System.out.println(i + " " + j);​
+    }​
+}​
+Esto se usa mucho para:​
+
+Tablas​
+Matrices​
+Patrones de impresión​
+
+4. ¿Qué es el alcance de una variable dentro de un ciclo?​
+
+R/: El alcance (scope) es el lugar donde una variable puede ser usada.Si una variable se declara dentro de un ciclo, solo existe dentro de ese ciclo. Ejemplo: ​
+
+for (int i = 0; i < 5; i++) {​
+    int numero = i;​
+    System.out.println(numero);​
+}
+
+5. Explique 3 palabras reservadas que se pueden usar en un ciclo​
+
+R/: break: Se usa para terminar un ciclo antes de que la condición se cumpla. Ejemplo:​
+for(int i = 1; i <= 10; i++){​
+    if(i == 5){​
+        break;​
+    }​
+    System.out.println(i);​
+}​
+
+Continue: Se usa para saltar una iteración del ciclo y continuar con la siguiente. Ejemplo:​
+for(int i = 1; i <= 5; i++){​
+    if(i == 3){​
+        continue;​
+    }​
+    System.out.println(i);​
+}​
+return: Se usa para salir de un método, incluso si está dentro de un ciclo. Ejemplo:​
+while(true){​
+    return;​
+}
+
+6. ¿Cómo se pueden usar los ciclos para procesar datos de entrada del usuario?​
+
+R/: Los ciclos permiten pedir datos repetidamente al usuario hasta que se cumpla una condición. Ejemplo: pedir números hasta que el usuario ingrese 0.​
+Scanner sc = new Scanner(System.in);​
+​
+int numero = -1;​
+​
+while(numero != 0){​
+    System.out.print("Ingrese un número (0 para salir): ");​
+    numero = sc.nextInt();​
+}​
+Esto se usa mucho para:​
+menús​
+validación de datos​
+juegos​
+repetición de cálculos​
+
+7. ¿Qué es un contador?, ¿qué tipos de variables de control conoce? Un contador es una variable que lleva el número de veces que se ejecuta un ciclo. Ejemplo:​
+int contador = 0;​
+​
+for(int i = 1; i <= 5; i++){​
+    contador++;​
+}
+
+Tipos de variables de control:​
+ContadorCuenta: cuántas veces ocurre algo.​
+Acumulador: Guarda la suma de valores.​
+Ejemplo:​
+int suma = 0;​
+suma = suma + numero;​
+​
+Bandera (flag):Variable booleana que controla si algo ocurrió o no. Ejemplo:​
+boolean encontrado = false;
+
+8. ¿Qué es una secuencia de escape, cómo se usa para resolver este taller?​
+R/: Una secuencia de escape es un carácter especial que se usa dentro de textos en Java para representar acciones especiales. Ejemplo:​
+​
+Secuencias y significado:
+
+- \n​: Salto de líneas​
+- \t​: Tabulación​
+- \”​: Comillas​
+- \\​: Barra invertida​
+​
+En este taller se usan para:​
+organizar el menú​
+mostrar texto ordenado​
+crear diseños ASCII​
+hacer que la salida sea más clara para el usuario​
+
+9. Explique tres atajos de teclado útiles para programar en VSC​
+
+R/: Ctrl + C / Ctrl + V: Sirve para copiar y pegar código, lo cual ayuda a reutilizar estructuras o partes del programa.​
+Ctrl + S: Sirve para guardar el archivo actual. Es importante usarlo frecuentemente para no perder cambios.​
+Ctrl + /: Permite comentar o descomentar líneas de código rápidamente.​
+
+10. ¿Qué es overflow?, ¿en qué parte del taller se puede presentar?​
+
+R/: El overflow ocurre cuando un número supera el valor máximo que puede almacenar un tipo de dato. Por ejemplo, un int tiene un límite aproximado de 2,147,483,647. Si se supera ese valor, el número se reinicia y produce resultados incorrectos.​
+En este taller puede ocurrir en:​
+Fibonacci, cuando los números crecen muy rápido.​
+Contadores o acumuladores si se usan valores muy grandes.​
+
+11. ¿Cómo se puede personalizar los colores de la consola en Java?​
+
+R/: Se pueden usar códigos ANSI para cambiar colores del texto en la consola. Ejemplo:​
+System.out.println("\u001B[31mTexto en rojo\u001B[0m");​
+System.out.println("\u001B[32mTexto en verde\u001B[0m");​
+System.out.println("\u001B[34mTexto en azul\u001B[0m");
+
 ---
 
 ## ✅ Conclusion
