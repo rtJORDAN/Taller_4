@@ -516,6 +516,41 @@ System.out.println("\u001B[31mTexto en rojo\u001B[0m");​
 System.out.println("\u001B[32mTexto en verde\u001B[0m");​
 System.out.println("\u001B[34mTexto en azul\u001B[0m");
 
+12. Escriba 5 formas diferentes de definir ciclos infinitos en Java​
+
+R/: while(true)​
+
+while(true){​
+    System.out.println("Ciclo infinito");​
+}​
+​
+
+for: sin condición​
+
+for(;;){​
+    System.out.println("Ciclo infinito");​
+}​
+
+do-while(true)​
+
+do{​
+    System.out.println("Ciclo infinito");​
+}while(true);​
+
+while: con una variable siempre verdadera​
+
+boolean activo = true;​
+​
+while(activo){​
+    System.out.println("Ciclo infinito");​
+}​
+
+for: con condición siempre verdadera​
+
+for(int i = 1; i > 0; i++){​
+    System.out.println("Ciclo infinito");​
+}
+
 ---
 
 ## ✅ Conclusion
