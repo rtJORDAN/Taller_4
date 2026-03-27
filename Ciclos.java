@@ -117,7 +117,7 @@ public class Ciclos {
             }
         }
 
-        return numero; // devuelve primo encontrado
+        return numero; // devuleve primo encontrado
     }
 
     public static boolean esPrimo(int numero) { // verifica si un número es primo
