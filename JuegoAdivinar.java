@@ -52,7 +52,7 @@ public class JuegoAdivinar {
         System.out.println("Numero secreto: " + numeroSecreto); 
         System.out.println("Intentos: " + contador);
 
-        sc.close(); // cierra el Scanner
+        sc.close();
     }
 }
  
